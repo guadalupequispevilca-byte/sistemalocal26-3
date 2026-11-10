@@ -15,7 +15,7 @@ class App extends BaseConfig
      * WITH a trailing slash:
      *
      * E.g., http://example.com/
-     */
+I     */
     public string $baseURL = 'http://localhost/sistemalocal26-3/public/';
 
     /**

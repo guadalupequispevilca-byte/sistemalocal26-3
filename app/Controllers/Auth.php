@@ -19,7 +19,7 @@ class Auth extends BaseController
         $usuario = (string) $this->request->getPost('usuario');
         $password = (string) $this->request->getPost('password');
 
-        $usuarioCorrecto = 'admin';
+        $usuarioCorrecto = 'Guadalupe';
         $passwordCorrecto = '123456';
 
         if (hash_equals($usuarioCorrecto, $usuario) && hash_equals($passwordCorrecto, $password)) {

@@ -15,6 +15,8 @@
 
     <p>Has iniciado sesión correctamente.</p>
 
+    <p><a href="<?= site_url('alumnos') ?>">Administrar registro de alumnos</a></p>
+
     <form action="<?= site_url('logout') ?>" method="post">
         <?= csrf_field() ?>
         <button type="submit">Cerrar sesión</button>
